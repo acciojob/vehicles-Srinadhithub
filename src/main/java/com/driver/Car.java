@@ -21,7 +21,36 @@ public class Car extends Vehicle {
         this.seats = seats;
 
     }
-    public Car(String name,boolean isManual){
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
+
+    public void setGears(int gears) {
+        this.gears = gears;
+    }
+
+    public void setManual(boolean manual) {
+        isManual = manual;
+    }
+
+    public void setCurrentGear(int currentGear) {
+        this.currentGear = currentGear;
+    }
+
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
+
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
+    public Car(String name, boolean isManual){
         super(name);
         isManual=isManual;
     }
