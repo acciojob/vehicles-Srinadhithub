@@ -37,7 +37,7 @@ public class Vehicle {
  public int getCurrentSpeed(){
         return currentSpeed;
  }
-    public int CurrentDirection() {
+    public int getCurrentDirection() {
         return currentDirection;
     }
 }
