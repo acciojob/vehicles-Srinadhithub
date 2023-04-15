@@ -3,6 +3,11 @@ package com.driver;
 public class Vehicle {
 
     private String name;
+
+    public String getName() {
+        return name;
+    }
+
     private int currentSpeed;
     private int currentDirection;
 
@@ -32,7 +37,7 @@ public class Vehicle {
  public int getCurrentSpeed(){
         return currentSpeed;
  }
-    protected int getCurrentDirection() {
+    public int CurrentDirection() {
         return currentDirection;
     }
 }
