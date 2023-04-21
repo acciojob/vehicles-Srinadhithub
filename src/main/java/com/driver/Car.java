@@ -50,11 +50,6 @@ public class Car extends Vehicle {
         this.wheels = wheels;
     }
 
-    public Car(String name, boolean isManual){
-        super(name);
-        isManual=isManual;
-    }
-
     public void changeGear(int newGear){
           currentGear=newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
